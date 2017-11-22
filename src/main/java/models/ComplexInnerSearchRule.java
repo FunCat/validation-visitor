@@ -2,7 +2,7 @@ package models;
 
 import validators.ValidatorVisitor;
 
-public class ComplexInnerSearchRule implements SearchRule{
+public class ComplexInnerSearchRule implements Validatable {
 
     private String uniqueness;
     private String title;

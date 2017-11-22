@@ -3,7 +3,7 @@ package models;
 import java.util.List;
 import validators.ValidatorVisitor;
 
-public class FormSearchRule implements SearchRule {
+public class FormSearchRule implements Validatable {
 
     private String section;
     private String type;

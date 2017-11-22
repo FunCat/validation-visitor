@@ -6,7 +6,7 @@ import models.FormInnerSearchRule;
 import models.FormSearchRule;
 import models.ComplexInnerSearchRule;
 
-public class LocatorExistenceValidator implements ValidatorVisitor {
+public class LocatorExistenceValidator extends AbstractValidator {
 
     @Override
     public boolean validate(CommonSearchRule commonSearchRule) {

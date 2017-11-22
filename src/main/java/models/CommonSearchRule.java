@@ -2,7 +2,7 @@ package models;
 
 import validators.ValidatorVisitor;
 
-public class CommonSearchRule implements SearchRule {
+public class CommonSearchRule implements Validatable {
 
     private String uniqueness;
     private String type;
